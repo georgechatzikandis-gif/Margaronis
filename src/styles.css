@@ -1,30 +1,30 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #05070d;
-  --color-surface: #0a0e18;
-  --color-surface-elevated: #10151f;
+  --color-background: #070503;
+  --color-surface: #120c07;
+  --color-surface-elevated: #1c130a;
 
-  --color-foreground: #f3f6fb;
-  --color-muted: #96a0b5;
-  --color-muted-foreground: #6b7690;
+  --color-foreground: #fbf3e9;
+  --color-muted: #c2ab8e;
+  --color-muted-foreground: #8f7a62;
 
-  --color-border: #1c2432;
-  --color-border-strong: #2a3547;
+  --color-border: #2c2013;
+  --color-border-strong: #40301a;
 
-  --color-primary: #2fb8ea;
-  --color-primary-strong: #1e8fd6;
-  --color-accent: #6ee7ff;
-  --color-accent-strong: #3fd0ff;
+  --color-primary: #ff7a1a;
+  --color-primary-strong: #e0600a;
+  --color-accent: #ffab3f;
+  --color-accent-strong: #ff9420;
 
-  --color-glass: rgb(16 21 31 / 0.55);
-  --color-glass-border: rgb(110 231 255 / 0.14);
+  --color-glass: rgb(28 19 10 / 0.55);
+  --color-glass-border: rgb(255 154 43 / 0.16);
 
   --font-display: "Manrope", "Segoe UI", system-ui, sans-serif;
   --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
 
-  --shadow-glow: 0 0 60px 0 rgb(47 184 234 / 0.25);
-  --shadow-glow-strong: 0 0 90px 0 rgb(63 208 255 / 0.35);
+  --shadow-glow: 0 0 60px 0 rgb(255 122 26 / 0.25);
+  --shadow-glow-strong: 0 0 90px 0 rgb(255 148 32 / 0.35);
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-slow: pulse-slow 3s ease-in-out infinite;
