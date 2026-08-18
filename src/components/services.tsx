@@ -7,24 +7,32 @@ const services = [
     title: 'Γενικό Service',
     description:
       'Πλήρης έλεγχος και συντήρηση σύμφωνα με τις προδιαγραφές του κατασκευαστή, με γνήσια ή ισοδύναμα ανταλλακτικά.',
+    image:
+      'https://d8j0ntlcm91z4.cloudfront.net/user_3FuCan21Moqq9F87YZSPqZ0TuU7/hf_20260818_101056_18dcbb76-2d9c-420c-bc7a-a9e569d3b822.png',
   },
   {
     icon: Disc,
     title: 'Φρένα',
     description:
       'Έλεγχος, συντήρηση και αντικατάσταση δισκόπλακων και τακακιών για μέγιστη ασφάλεια σε κάθε φρενάρισμα.',
+    image:
+      'https://d8j0ntlcm91z4.cloudfront.net/user_3FuCan21Moqq9F87YZSPqZ0TuU7/hf_20260818_101056_300f8b43-3296-4913-a86d-7d4419886b71.png',
   },
   {
     icon: Disc3,
     title: 'Ελαστικά & Ζυγοστάθμιση',
     description:
       'Αλλαγή ελαστικών, ζυγοστάθμιση και ευθυγράμμιση για σταθερότητα, άνεση και μεγαλύτερη διάρκεια ζωής.',
+    image:
+      'https://d8j0ntlcm91z4.cloudfront.net/user_3FuCan21Moqq9F87YZSPqZ0TuU7/hf_20260818_101056_d98a16f2-7e8e-4070-856c-26c126f12fb9.png',
   },
   {
     icon: ScanSearch,
     title: 'Διάγνωση Βλαβών',
     description:
       'Ηλεκτρονική διάγνωση με σύγχρονο εξοπλισμό για γρήγορο και ακριβή εντοπισμό κάθε βλάβης.',
+    image:
+      'https://d8j0ntlcm91z4.cloudfront.net/user_3FuCan21Moqq9F87YZSPqZ0TuU7/hf_20260818_101056_468e3b50-97ee-48a9-bd1c-bfe34473e43e.png',
   },
 ]
 
@@ -62,29 +70,28 @@ export function Services() {
               className="glass-panel group relative overflow-hidden rounded-3xl"
               style={{ transformStyle: 'preserve-3d' }}
             >
-              <div
-                className="relative flex h-44 items-center justify-center overflow-hidden sm:h-52"
-                style={{
-                  background:
-                    'radial-gradient(60% 100% at 50% 0%, color-mix(in oklab, var(--color-primary) 35%, transparent) 0%, transparent 70%), linear-gradient(160deg, var(--color-surface-elevated), var(--color-surface))',
-                }}
-              >
+              <div className="relative h-44 overflow-hidden sm:h-52">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  loading="lazy"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
                 <div
-                  className="absolute inset-0 opacity-[0.08]"
+                  className="absolute inset-0"
                   style={{
-                    backgroundImage:
-                      'linear-gradient(var(--color-accent) 1px, transparent 1px), linear-gradient(90deg, var(--color-accent) 1px, transparent 1px)',
-                    backgroundSize: '28px 28px',
+                    background:
+                      'linear-gradient(180deg, color-mix(in oklab, var(--color-background) 15%, transparent) 0%, color-mix(in oklab, var(--color-background) 55%, transparent) 65%, var(--color-background) 100%)',
                   }}
                 />
                 <div
-                  className="flex h-20 w-20 items-center justify-center rounded-2xl transition-transform duration-300 group-hover:scale-110"
+                  className="absolute bottom-4 left-4 flex h-16 w-16 items-center justify-center rounded-2xl transition-transform duration-300 group-hover:scale-110"
                   style={{
                     background: 'linear-gradient(135deg, var(--color-primary), var(--color-accent))',
                     boxShadow: 'var(--shadow-glow-strong)',
                   }}
                 >
-                  <service.icon className="h-9 w-9 text-background" strokeWidth={2} />
+                  <service.icon className="h-7 w-7 text-background" strokeWidth={2} />
                 </div>
               </div>
 
