@@ -11,6 +11,7 @@
     "build": "vite build",
     "build:cloudflare": "NITRO_PRESET=cloudflare_module vite build",
     "deploy:cloudflare": "npm run build:cloudflare && nitro deploy --prebuilt",
+    "build:cloudflare-pages": "NITRO_PRESET=cloudflare_pages vite build",
     "preview": "vite preview",
     "lint": "eslint",
     "format": "prettier --write . && eslint --fix",
