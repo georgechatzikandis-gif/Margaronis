@@ -1,4 +1,4 @@
-import { Disc, Disc3, ScanSearch, Settings2 } from 'lucide-react'
+import { Disc, ScanSearch, Settings2 } from 'lucide-react'
 import { motion } from 'motion/react'
 
 const services = [
@@ -17,14 +17,6 @@ const services = [
       'Έλεγχος, συντήρηση και αντικατάσταση δισκόπλακων και τακακιών για μέγιστη ασφάλεια σε κάθε φρενάρισμα.',
     image:
       'https://d8j0ntlcm91z4.cloudfront.net/user_3FuCan21Moqq9F87YZSPqZ0TuU7/hf_20260818_101056_300f8b43-3296-4913-a86d-7d4419886b71.png',
-  },
-  {
-    icon: Disc3,
-    title: 'Ελαστικά & Ζυγοστάθμιση',
-    description:
-      'Αλλαγή ελαστικών, ζυγοστάθμιση και ευθυγράμμιση για σταθερότητα, άνεση και μεγαλύτερη διάρκεια ζωής.',
-    image:
-      'https://d8j0ntlcm91z4.cloudfront.net/user_3FuCan21Moqq9F87YZSPqZ0TuU7/hf_20260818_101056_d98a16f2-7e8e-4070-856c-26c126f12fb9.png',
   },
   {
     icon: ScanSearch,
@@ -58,14 +50,14 @@ export function Services() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2" style={{ perspective: '1400px' }}>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3" style={{ perspective: '1400px' }}>
           {services.map((service, i) => (
             <motion.div
               key={service.title}
               initial={{ opacity: 0, rotateY: i % 2 === 0 ? -35 : 35, y: 40 }}
               whileInView={{ opacity: 1, rotateY: 0, y: 0 }}
               viewport={{ once: true, amount: 0.35 }}
-              transition={{ duration: 0.7, delay: (i % 2) * 0.1, ease: 'easeOut' }}
+              transition={{ duration: 0.7, delay: i * 0.1, ease: 'easeOut' }}
               whileHover={{ y: -6 }}
               className="glass-panel group relative overflow-hidden rounded-3xl"
               style={{ transformStyle: 'preserve-3d' }}
