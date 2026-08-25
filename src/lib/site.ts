@@ -5,6 +5,7 @@ export const site = {
   phoneDisplay: '210 000 0000',
   phoneHref: 'tel:+302100000000',
   mapsHref: 'https://www.google.com/maps/search/?api=1&query=Μαργαρώνης+Service',
-  hoursShort: '8:00 – 21:00',
-  hoursOpenBadge: 'Ανοιχτά · 8:00 – 21:00',
+  hoursWeekday: '9:00 – 17:00',
+  hoursSaturday: '9:00 – 14:00',
+  hoursOpenBadge: 'Ανοιχτά · Δευτ–Παρ 9:00–17:00',
 } as const

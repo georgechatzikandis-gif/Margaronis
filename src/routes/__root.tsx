@@ -6,7 +6,7 @@ import appCss from '../styles.css?url'
 
 const title = 'Μαργαρώνης Service | Εξειδικευμένο Συνεργείο Alfa Romeo, Fiat, Lancia, Jeep'
 const description =
-  'Μαργαρώνης Service — εξειδικευμένο συνεργείο Alfa Romeo, Fiat, Lancia, Jeep με 25+ χρόνια εμπειρίας. Service, φρένα, διάγνωση βλαβών, ανταλλακτικά, αξεσουάρ και μεταχειρισμένα ανταλλακτικά. Ανοιχτά καθημερινά 8:00 – 21:00.'
+  'Μαργαρώνης Service — εξειδικευμένο συνεργείο Alfa Romeo, Fiat, Lancia, Jeep με 25+ χρόνια εμπειρίας. Service, φρένα, διάγνωση βλαβών, ανταλλακτικά, αξεσουάρ και μεταχειρισμένα ανταλλακτικά. Δευτέρα–Παρασκευή 9:00–17:00, Σάββατο 9:00–14:00.'
 
 export const Route = createRootRoute({
   head: () => ({

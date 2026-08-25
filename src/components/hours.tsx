@@ -35,15 +35,30 @@ export function Hours() {
           whileInView={{ opacity: 1, rotateX: 0, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
-          className="glass-panel rounded-3xl px-8 py-10 sm:px-14 sm:py-14"
+          className="glass-panel rounded-3xl px-8 py-10 text-left sm:px-14 sm:py-12"
           style={{ transformStyle: 'preserve-3d' }}
         >
-          <p className="text-gradient font-display text-5xl font-extrabold tracking-tight sm:text-6xl">
-            8:00 — 21:00
-          </p>
-          <div className="mt-8 space-y-2">
-            <p className="text-lg font-semibold text-foreground">Δευτέρα – Σάββατο</p>
-            <p className="text-base text-muted-foreground">Κυριακή κλειστά</p>
+          <div className="flex items-center justify-between gap-4 py-4">
+            <span className="text-lg font-semibold text-foreground">Δευτέρα – Παρασκευή</span>
+            <span className="text-gradient font-display text-2xl font-extrabold tracking-tight sm:text-3xl">
+              9:00 – 17:00
+            </span>
+          </div>
+          <div
+            className="flex items-center justify-between gap-4 border-t py-4"
+            style={{ borderColor: 'var(--color-border)' }}
+          >
+            <span className="text-lg font-semibold text-foreground">Σάββατο</span>
+            <span className="text-gradient font-display text-2xl font-extrabold tracking-tight sm:text-3xl">
+              9:00 – 14:00
+            </span>
+          </div>
+          <div
+            className="flex items-center justify-between gap-4 border-t py-4"
+            style={{ borderColor: 'var(--color-border)' }}
+          >
+            <span className="text-lg font-semibold text-foreground">Κυριακή</span>
+            <span className="text-base font-semibold text-muted-foreground">Κλειστά</span>
           </div>
         </motion.div>
       </div>

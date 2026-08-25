@@ -3,7 +3,7 @@ import { motion } from 'motion/react'
 
 const stats = [
   { icon: Award, value: '25+', label: 'Χρόνια εμπειρίας' },
-  { icon: Clock, value: '8–21', label: 'Ωράριο κάθε μέρα' },
+  { icon: Clock, value: '9–17', label: 'Ωράριο Δευτ–Παρ' },
   { icon: ShieldCheck, value: '100%', label: 'Εγγύηση εργασιών' },
 ]
 
