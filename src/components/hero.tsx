@@ -91,8 +91,8 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.35 }}
           className="mt-6 max-w-xl text-balance text-lg text-muted sm:text-xl"
         >
-          Το αυτοκίνητό σου σε έμπειρα χέρια. Service, φρένα, ελαστικά και
-          διάγνωση βλαβών με ακρίβεια, ταχύτητα και εγγύηση.
+          Εξειδικευμένο συνεργείο Alfa Romeo, Fiat, Lancia, Jeep — ανταλλακτικά,
+          αξεσουάρ και μεταχειρισμένα ανταλλακτικά.
         </motion.p>
 
         <motion.div

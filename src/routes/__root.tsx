@@ -4,9 +4,9 @@ import { TanStackDevtools } from '@tanstack/react-devtools'
 
 import appCss from '../styles.css?url'
 
-const title = 'Μαργαρώνης Service | Συνεργείο Αυτοκινήτων'
+const title = 'Μαργαρώνης Service | Εξειδικευμένο Συνεργείο Alfa Romeo, Fiat, Lancia, Jeep'
 const description =
-  'Μαργαρώνης Service — συνεργείο αυτοκινήτων με 25+ χρόνια εμπειρίας. Γενικό service, φρένα, ελαστικά, ζυγοστάθμιση και διάγνωση βλαβών. Ανοιχτά καθημερινά 8:00 – 21:00.'
+  'Μαργαρώνης Service — εξειδικευμένο συνεργείο Alfa Romeo, Fiat, Lancia, Jeep με 25+ χρόνια εμπειρίας. Service, φρένα, ελαστικά, διάγνωση βλαβών, ανταλλακτικά, αξεσουάρ και μεταχειρισμένα ανταλλακτικά. Ανοιχτά καθημερινά 8:00 – 21:00.'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -28,7 +28,7 @@ export const Route = createRootRoute({
       {
         name: 'keywords',
         content:
-          'συνεργείο αυτοκινήτων, service αυτοκινήτου, φρένα, ελαστικά, ζυγοστάθμιση, διάγνωση βλαβών, Μαργαρώνης',
+          'συνεργείο Alfa Romeo, συνεργείο Fiat, συνεργείο Lancia, συνεργείο Jeep, service αυτοκινήτου, φρένα, ελαστικά, ζυγοστάθμιση, διάγνωση βλαβών, ανταλλακτικά, αξεσουάρ, μεταχειρισμένα ανταλλακτικά, Μαργαρώνης',
       },
       {
         name: 'theme-color',
