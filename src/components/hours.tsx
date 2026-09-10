@@ -5,7 +5,7 @@ import { GlowBackdrop } from '#/components/glow-backdrop'
 
 export function Hours() {
   return (
-    <section className="relative overflow-hidden bg-surface py-24 sm:py-32">
+    <section id="hours" className="relative overflow-hidden bg-surface py-24 sm:py-32">
       <GlowBackdrop />
 
       <div className="relative mx-auto max-w-2xl px-6 text-center" style={{ perspective: '1400px' }}>
