@@ -10,7 +10,7 @@ export const site = {
   addressRegion: 'Νότιο Αιγαίο',
   addressCountry: 'GR',
   addressFull: 'Ι. Καποδιστρίου 44, Ρόδος 851 00',
-  mapsHref: 'https://www.google.com/maps/search/?api=1&query=Margaronis+Service+I.+Kapodistriou+44+Rodos+85100',
+  mapsHref: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Margaronis Service, I. Kapodistriou 44, Rodos 851 00')}`,
   siteUrl: 'https://margaronis-service.gr',
   hoursWeekday: '9:00 – 17:00',
   hoursSaturday: '9:00 – 14:00',

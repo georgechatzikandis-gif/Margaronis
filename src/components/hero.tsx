@@ -119,7 +119,7 @@ export function Hero() {
             className="glass-panel flex items-center justify-center gap-2 rounded-xl px-7 py-4 text-base font-semibold text-foreground transition-transform hover:scale-105"
           >
             <MapPin className="h-5 w-5" style={{ color: 'var(--color-accent)' }} />
-            Οδηγίες
+            Βρείτε μας στο χάρτη
           </a>
         </motion.div>
       </motion.div>
