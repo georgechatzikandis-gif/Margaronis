@@ -71,7 +71,7 @@ export function Footer() {
                   className="flex items-center gap-2.5 transition-colors hover:text-foreground"
                 >
                   <MapPin className="h-4 w-4 shrink-0" style={{ color: 'var(--color-accent)' }} />
-                  Οδηγίες
+                  {site.addressFull}
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
