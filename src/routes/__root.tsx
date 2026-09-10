@@ -50,6 +50,10 @@ export const Route = createRootRoute({
         property: 'og:description',
         content: description,
       },
+      {
+        name: 'google-site-verification',
+        content: '9CdCLr62yDvndQIs0AhyemAHdiw-sDHAZg_hweicOaE',
+      },
     ],
     links: [
       {
